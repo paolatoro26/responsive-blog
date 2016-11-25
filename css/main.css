@@ -1,5 +1,40 @@
 /* Inserta tu codigo aqui */
 
+body{
+	margin: 0;
+	padding: 0
+}
+/*..................... commom...............*/
+.container{
+	width: 70%;
+	margin: 0 auto
+}
+
+/*..................... header ...............*/
+header{
+	background-color: #1D092C;
+	height: 60px
+}
+.logo{
+	width: 200px
+}
+ul{
+	list-style: none;
+	float: right;
+	
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+li a{
+	color: white;
+	text-decoration: none;
+}
+.principal{
+	width:400px
+}
+
 /* Responsive */
 
 @media screen and (max-width : 920px) {
