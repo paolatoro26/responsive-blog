@@ -72,7 +72,7 @@ section .principal{
 	background: url(../image/header-image.jpg)!important;
 	background-size: cover;
 	height: auto;	
-	overflow: hidden;
+	
 	display: table;
 	margin: 0 auto;
 	height: auto;
@@ -81,7 +81,7 @@ section .principal{
 section .titulo{
 	display: table-cell;
 	width: 400px;
-	vertical-align: middle;
+
 	padding: 10px;
 	background-color:  #1D092C;
 	padding: 0;
@@ -110,7 +110,7 @@ section .fila3,input{
 	margin-top: 20px
 }
 
-input{
+section input{
 	width: 33%;
 	padding: 10px;
 	border: 20px solid  #1D092C;
@@ -159,43 +159,28 @@ footer{
 /* Responsive */
 
 @media screen and (max-width : 950px) {
-	.container{width:100%
+	.container{width:590px
 	}
 	
 }
 
 @media screen and (max-width: 590px) {
-	.container{width: 100%}
-	section{width: 100%}
-	.col-1,.col-2,.col-3,.sobreamanda,.fila3{
-		width: 100%
+	.container{width: 300px}
+	section{width: 100%;
 	}
+	.col-1,.col-2,.col-3,.sobreamanda,.fila3{
+		width: 100%;
+			padding: 0;
+		margin: 0
+	}
+	.fila3{
+		margin: 0
+	}
+	ul{display: none;}
 	input{width: 100%}
 }
 @media(max-width: 200px){
-	header,section,footer{
-		width: 100%};
-		.fila3{
-			width: 100%
-		}
-	
-	
-	}
-/*
-@media(max-width: 900px){
-	.container{width:700px}
-}
-@media(max-width: 700px){
-	.container{width: 100%	}
-	.col-1,.col-2{width: 100%}
-
-
-}
-
-@media(max-width: 200px){
 	.container{
 		width: 100%};
-	.col-1,.col-2{width: 100%}
 	
-	}
-}*/
+	
